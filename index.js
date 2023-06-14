@@ -4,7 +4,7 @@ import {Client,IntentsBitField} from "discord.js";
 import config from "./config.js";
 
 const client = new Client({
-    intents:[IntentsBitField.Flags.MessageContent, IntentsBitField.Flags.GuildMessages, IntentsBitField.Flags.GuildMembers,IntentsBitField.Flags, IntentsBitField.Flags.Guilds]
+    intents:[IntentsBitField.Flags.MessageContent, IntentsBitField.Flags.GuildMessages, IntentsBitField.Flags.GuildMembers,IntentsBitField.Flags]
 });
 
 client.on("guildMemberAdd", (member) => {
