@@ -1,4 +1,5 @@
-const express = require("express"), app = express(); app.listen(80)
+import express from "express";
+const app = express(); app.listen(80)
 import {Client,IntentsBitField} from "discord.js";
 import config from "./config.js";
 
