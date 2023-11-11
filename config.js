@@ -1,5 +1,5 @@
 export default {
-    token:'MTExODUzNjMyODg4MDA3NDc1Mg.G2tS11.4uAF0Dt-fuiVt28EQGad5KHOeQneXUqCC8MlHM',
+    token:'token',
     roles: {
         owner:"1118532456694419567",
         admin:"1118532633312366643",
