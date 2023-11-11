@@ -7,15 +7,7 @@ const client = new Client({
     intents:[IntentsBitField.Flags.MessageContent, IntentsBitField.Flags.GuildMessages, IntentsBitField.Flags.GuildMembers]
 });
 
-client.on("guildMemberAdd", (member) => {
-
-    member.roles.add(config.roles.members).catch((err) => {
-        return console.log(err);
-    }).finally(() => {
-        console.log("Sunucuya Birisi Dahil oldu : \n", member)
-    })
-
-})
+// ENTER CODE HERE
 
 
 client.login(config.token).then(() => {console.log("BOT Running")})
